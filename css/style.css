@@ -46,3 +46,15 @@
       background-color: rgba(228, 124, 172, 0.5);
   }
 
+  tr:nth-child(n+4):nth-child(-n+5) :nth-child(3), tr:nth-child(n+4):nth-child(-n+7) :nth-child(n+4):nth-child(-n+12)  {
+      background-color: rgba(59, 187, 97, 0.5);
+  }
+
+  tr:nth-child(6) :nth-child(3), tr:nth-child(8) :nth-child(n+2):nth-child(-n+15) {
+      background-color: rgba(102, 156, 226, 0.5);
+  }
+
+  tr:nth-child(7) :nth-child(3), tr:nth-child(9) :nth-child(n+2):nth-child(-n+15) {
+    background-color: rgba(24, 103, 128, 0.5);
+}
+
