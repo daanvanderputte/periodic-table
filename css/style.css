@@ -17,7 +17,24 @@
     transform: scale(1.5);
     transition: 0.5s;
   }
-  /* tr:nth-child(7) :nth-child(n + 3):nth-child(-n + 4) {
-    background-color: rgba(0, 0, 222, 0.5);
-  } */
   
+  tr:nth-child(1) :nth-child(1), tr:nth-child(2) :nth-child(n+14):nth-child(-n+16), tr:nth-child(3) :nth-child(n+15):nth-child(-n+16), :nth-child(4) :nth-child(16) {
+      background-color: rgba(238, 234, 10, 0.5);
+  }
+
+  tr:nth-child(n+1):nth-child(-n+6) :last-child {
+        background-color: rgba(233, 95, 238, 0.5);
+  }
+
+  tr:nth-child(n+2):nth-child(-n+7) :first-child, tr:nth-child(7) :nth-child(17){
+      background-color: rgba(114, 59, 187, 0.5);
+  }
+
+  tr:nth-child(n+2):nth-child(-n+7) :nth-child(2), tr:nth-child(7) :nth-child(18) {
+      background-color: rgba(233, 199, 125, 0.5);
+  }
+
+  tr:nth-child(2) :nth-child(13), tr:nth-child(3) :nth-child(14), tr:nth-child(4) :nth-child(n+14):nth-child(-n+15), tr:nth-child(5) :nth-child(n+15):nth-child(-n+16), tr:nth-child(6) :nth-child(16){
+    background-color: rgba(231, 109, 8, 0.5);
+}
+
