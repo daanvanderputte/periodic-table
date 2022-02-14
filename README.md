@@ -2,15 +2,15 @@
 
 <img src=./screenshot.png alt="Screenshot">
 
-Created a periodic table using :nth-child. By hovering over them, the cells become larger
+Created a periodic table using :nth-child. By hovering over them, the cells become larger.
 
 <img src=./svgs/laptop-code.svg alt="Code" width="30"/>
 
-HTML5/CSS3/SASS/JavaScript/React/Bootstrap/npm
+HTML5/CSS3
 
 <img src=./svgs/toolbox.svg alt="Tools" width="30"/>
 
-Visual Studio Code/Google Fonts/Font Awesome
+Visual Studio Code
 
 <img src=./svgs/envelope.svg alt="Mail" width="20"/> daanvanderputte@pm.me
 
